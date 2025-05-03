@@ -1,0 +1,49 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(241, 59, 14);
+    background-color: rgb(241, 59, 14);
+    
+}
+
+h1{
+    
+    color:rgb(217, 240, 204);
+    background-color:rgb(221, 163, 38);
+    font-size: 72px;
+    text-align:center;
+    
+}
+h2{
+    color:rgb(217, 240, 204);
+    background-color: rgb(221, 163, 38);
+    text-align:center;
+}
+
+a{
+    color:rgb(248, 213, 190);
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+
+a:hover{
+    color:rgb(221, 163, 38);
+    text-decoration: underline;
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    background-color: rgb(217, 240, 204);
+}
+
+.fondo-marron{
+    background-color: rgb(221, 163, 38);
+}
+
+#introduccion{ 
+    background-color: blue;
+}
