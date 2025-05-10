@@ -1,0 +1,5 @@
+formas de aplicar estilo:
+fomra uno: 
+h1,h2,h3,p {} -> tiene que ir si o si con la coma
+forma dos:
+ponemos en css: .texto-arial{} y dsp en html ponemos en h1, h2, etc adentro <class = "texto-arial">
