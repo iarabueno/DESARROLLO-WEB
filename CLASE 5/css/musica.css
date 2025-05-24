@@ -1,0 +1,111 @@
+/*reservado pra tipografia*/
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1{
+    color:rgb(5, 90, 202);
+}
+
+h2{
+    color:rgba(14, 15, 26, 0.664);
+}
+
+.dp-flex{display: flex;}
+
+.w-50{width: 50%;}
+
+
+.w-70{
+    width: 40%;
+}
+
+.m-auto{
+    margin:auto;
+}
+
+/*sacar el punto*/
+ul{
+    list-style:none;
+    display: flex;
+
+}
+
+
+/*caracteristicas del fondo y el texto*/
+.texto-oscuro{
+    color:rgb(102, 88, 75);
+}
+
+.texto-claro{
+    color:rgb(189, 215, 230);
+}
+.fondo-oscuro{
+    background-color:rgb(102, 88, 75);
+}
+
+.fondo-claro{
+    background-color: rgb(189, 215, 230);
+}
+
+.altura{
+    height: 100vh;
+}
+img{
+
+    width: 100%;
+}
+
+/*fondo*/
+.back1{
+    background-image: url('/img/fondos/back1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+
+.back2{
+    background-image: url('/img/fondos/back2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;    
+}
+/*para el header*/
+header{
+    position: fixed; 
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.534);
+    display: flex;
+}
+
+.relleno-1{
+    padding: 40px 80px;
+}
+
+a:hover{
+    color:rgb(8, 133, 206);
+}
+
+
+.b-radius{
+    border-radius: 30px ;
+}
+
+a{
+    color: #1e3f4d;
+}
+.pr-1{
+padding-right:50px;
+}
+.pl-1{
+    padding-left:50px;
+    }
+
+.justify-content{
+    justify-content: center;
+}
