@@ -1,0 +1,9 @@
+1 - clases de utilidad basicas
+2 - clases de capas estructurales
+3 - componentes: etiquetas + clases
+
+cajas abu > cajas madre > cajas hijas
+
+.container > .row > .col-12 no hay que sacar row
+
+.col-1 -> esta mal -> .col-12 
