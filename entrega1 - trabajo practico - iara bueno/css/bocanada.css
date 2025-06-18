@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.section1 {
+    background: linear-gradient(0deg, rgba(0, 0, 102, 1) 0%, rgba(51, 51, 153, 1) 100%);
+    padding: 250px 20px;
+    text-align: center;
+}
+
+.bocanada {
+    font-family: "Montserrat", sans-serif;
+    color: #6699ff;
+    font-size: 90px; /* tamaño fijo */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.frase {
+    font-family: 'Edu NSW ACT Cursive', cursive;
+    color: #6699ff;
+    font-size: 30px; /* tamaño fijo */
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.frase small {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barranavegacion {
+    background-color: #000033;
+    padding: 15px 0;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(141, 147, 218);
+    text-decoration: underline;
+}
+
+.section2 {
+    background: linear-gradient(0deg, rgba(51, 51, 153, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    padding: 80px 40px;
+    height: 800px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorSection2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    padding: 60px;
+    gap: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.imagenSection2 {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fondoCerati {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.subtitulo {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 40px; 
+    text-align: center;
+    font-weight: 400;
+}
+
+.informacion {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px; 
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textoSection2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px 60px 60px; 
+    box-sizing: border-box;
+    color: white;
+}
+
+.section3 {
+    background: linear-gradient(180deg, rgba(51, 51, 153, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    padding: 80px 40px;
+}
+
+.contenedorSection3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+}
+
+.imagenSection3, .textoSection3 {
+    flex: 1;
+}
+
+.imagenceratisepia {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.section4 {
+    background-image: url(../img/fondoConTexturas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 40px;
+    
+}
+
+.contenedorSection4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section5 {
+    background: linear-gradient(180deg, rgba(0, 102, 204, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    padding: 80px 40px;
+}
+
+.contenedorSection5 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    
+}
+
+.gustavoceratifotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 5px;
+    max-width: 520px;
+}
+
+.gustavoceratifotos .galeria {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0px 6px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.textoSection5 {
+    max-width: 600px;
+    color: white;
+}
+
+.section6 {
+    background: linear-gradient(180deg, rgba(51, 102, 204, 1) 0%, rgba(18, 19, 12, 1) 100%);
+}
+
+.textoSection6 {
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.textoSection6 .subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px; 
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.textoSection6 .informacion {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px; 
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.textoSection6 .spotifyPlayer {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    height: 352px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.footer {
+    background-color: rgba(18, 19, 12, 1);
+    padding: 60px 10px;
+}
+
+.contenedorFooter {
+    display: flex;
+    flex-direction: column;  /* para que quede vertical */
+    align-items: flex-start; /* alinear todo a la izquierda */
+    padding: 20px;
+    gap: 8px; /* espacio entre los elementos */
+}
+
+.contacto {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: left; 
+}
+
+.h3{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.firma {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: left; 
+}
+iframe {
+    border: none;
+}
