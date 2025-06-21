@@ -4,6 +4,17 @@
 
 cajas abu > cajas madre > cajas hijas
 
-.container > .row > .col-12 no hay que sacar row
+.container > .row > .col-12 (el nro significa cuantas columnas quiero ocupar) no hay que sacar row
 
 .col-1 -> esta mal -> .col-12 
+
+.p-2 -> 
+
+margin y padding -> depende del borde
+margin -> afuera
+padding -> dentro
+
+tienen maneras de trabajar:
+- por ejes
+
+
